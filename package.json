@@ -1,0 +1,32 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    ">0.5%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "firebase": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.12.1"
+  }
+}

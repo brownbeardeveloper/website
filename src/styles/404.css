@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&display=swap');
+
+.error {
+    height: 90vh;
+    margin: auto 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.error img {
+    display: block;
+    margin: 8% auto 2% auto;
+    width: 30%;
+}
+
+.error h1 {
+    margin: 0% auto 2% auto;
+    font-family: Josefin Slab, sans-serif;
+    font-style: 700;
+    font-weight: bold;
+    color: #b35fca;
+}
+
+.error p {
+    margin: 0% 6%;
+    font-family: Josefin Slab, sans-serif;
+    font-style: 400;
+    font-size: 2rem;
+    color: #464646;
+}
