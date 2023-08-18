@@ -1,19 +1,19 @@
 {
   "name": "website",
   "version": "1.0.0",
+  "homepage": "https://brownbeardeveloper.github.io/ddf",
   "description": "",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "clean": "del-cli ./.parcel-cache ./docs ./dist",
-    "build": "parcel build ./src/index.html --dist-dir docs --public-url /brownbeardeveloper/"
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url /ddf/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^4.0.1",
-    "parcel": "^2.9.1",
-    "process": "^0.11.10"
+    "parcel": "^2.9.1"
   },
   "browserslist": [
     ">0.5%",
