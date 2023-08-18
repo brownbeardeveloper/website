@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "homepage": "https://brownbeardeveloper.github.io/",
+  "homepage": "https://brownbeardeveloper.github.io/ddf/",
   "description": "",
   "scripts": {
     "dev": "parcel ./src/index.html",
