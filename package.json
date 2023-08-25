@@ -1,17 +1,17 @@
 {
   "name": "website",
   "version": "1.0.0",
+  "author": "",
   "homepage": "https://brownbeardeveloper.github.io/ddf",
   "description": "",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel ./src/index.html",
     "clean": "del-cli ./.parcel-cache ./docs ./dist",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^4.0.1",
