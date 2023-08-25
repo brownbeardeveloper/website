@@ -1,7 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';import Navbar from './components/Navbar';
 import './styles/App.css'
 import Home from './routes/Home';
 import Page1 from './routes/Page1';
@@ -23,7 +22,7 @@ function App() {
 
   return (
     <React.StrictMode>
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
         {isAuth ? (<Route path='/create-event' element={<CreateEvent />} />) : null }
@@ -36,7 +35,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </Router>
     </React.StrictMode>
   )
 }

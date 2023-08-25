@@ -26,10 +26,10 @@ export default function Footer() {
                     <div className="footer-column">
                         <h2>Quick Links</h2>
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/activities">Activities</a></li>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/login">Login</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/activities">Activities</Link></li>
+                            <li><Link to="/events">Events</Link></li>
+                            <li><Link to="/login">Login</Link></li>
                         </ul>
                     </div>
                 </div>
