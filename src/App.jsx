@@ -12,8 +12,6 @@ import Login from './routes/Login';
 import CreateEvent from './routes/CreateEvent';
 import Error from './routes/404';
 import Footer from './components/Footer';
-import { useState } from 'react';
-
 
 function App() {
 

@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "clean": "del-cli ./.parcel-cache ./docs ./dist",
-    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./"
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "deploy": "gh-pages -d docs"
   },
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^4.0.1",
+    "gh-pages": "^6.0.0",
     "parcel": "^2.9.1",
     "process": "^0.11.10"
   },
@@ -23,7 +25,6 @@
   "dependencies": {
     "dayjs": "^1.11.9",
     "firebase": "^10.1.0",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
