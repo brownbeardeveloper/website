@@ -1,7 +1,9 @@
 {
   "name": "website",
+  "homepage": "https://brownbeardeveloper.github.io/website",
   "version": "1.0.0",
   "description": "",
+  "private": false,
   "scripts": {
     "dev": "parcel ./src/index.html",
     "clean": "del-cli ./.parcel-cache ./docs ./dist",
