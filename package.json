@@ -1,6 +1,7 @@
 {
   "name": "website",
   "homepage": "https://brownbeardeveloper.github.io/website",
+  "start_url" : ".",
   "version": "1.0.0",
   "description": "",
   "private": false,

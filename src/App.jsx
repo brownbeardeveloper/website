@@ -35,7 +35,7 @@ function App() {
             <Route path='/create-event' element={<CreateEvent />} />
             <Route path='*' element={<Error />} />
           </Routes>
-          <Footer/>
+        <Footer/>
       </HashRouter>
     </React.StrictMode>
   )
