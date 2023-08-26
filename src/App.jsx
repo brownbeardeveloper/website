@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './styles/App.css'
 import Home from './routes/Home';
 import Page1 from './routes/Page1';
@@ -21,8 +21,7 @@ function App() {
   }, [isAuth]);
 
   return (
-    <React.StrictMode>
-      <BrowserRouter basename='/website'>
+    <>
         <Navbar />
         <Routes>
           <Route exact path='/website' index element={<Home />} />
@@ -35,9 +34,6 @@ function App() {
           {isAuth ? (<Route path='/create-event' element={<CreateEvent />} />) : null }
         </Routes>
         <Footer/>
-      </BrowserRouter>
-    </React.StrictMode>
+    </>
   )
 }
-
-ReactDOM.render(<App />, document.getElementById('root'))
